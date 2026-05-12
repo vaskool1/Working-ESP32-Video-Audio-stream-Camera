@@ -64,7 +64,7 @@ Digital audio requires precise timing. Ensure connections are secure to minimize
 2.  Update the **WiFi credentials** (`ssid` and `password`) to match your home network.
 3.  **Board Selection:** Select **AI Thinker ESP32-CAM**.
 4.  **Partition Scheme:** Select **Huge APP (3MB No OTA/1MB SPIFFS)**. This is necessary because the web server and camera libraries are large.
-5.  **Upload:** Connect the **IO0 pin** to ground while plugging in the USB to enter bootloader mode if you are building on a breadboard, otherwise just upload to the ESP32 using the MB Sheild. Click Upload.
+5.  **Upload:** Connect the **IO0 pin** to ground while plugging in the USB to enter bootloader mode if you are building on a breadboard, otherwise just upload to the ESP32 using the MB Shield. Click Upload.
 
 ---
 
