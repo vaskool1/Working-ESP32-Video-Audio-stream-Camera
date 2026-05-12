@@ -86,7 +86,7 @@ Digital audio requires precise timing. Ensure connections are secure to minimize
 
 ### Power Issues
 * **Brownout Error:** If the device keeps restarting when the camera starts, your power supply is insufficient. Use a 5V 2A adapter and place a **100µF capacitor** between the 5V and GND pins of the ESP32-CAM.
-* **Audio Noise:** Ensure the INMP441 `GND` and `L/R` pins are both connected to a clean Ground. Keep I2S wires short.
+* **Audio Noise:** Ensure the INMP441 `GND` and `L/R` pins are both connected to a clean Ground. Keep I2S wires short. If the microphopne doesn't work disconnect the L/R pin from ground this can fix it if you have a  INMP441 from AliExpress
 
 ---
 <img width="915" height="649" alt="image" src="https://github.com/user-attachments/assets/66b83786-45d5-44a0-9c8e-e7a3f7823689" />
