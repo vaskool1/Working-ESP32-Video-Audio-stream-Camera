@@ -72,8 +72,9 @@ Digital audio requires precise timing. Ensure connections are secure to minimize
 
 1.  **Boot Up:** Once flashed, open the Serial Monitor (115200 baud) and press the Reset button on the ESP32.
 2.  **Access the Dashboard:** Copy the IP address shown in the Serial Monitor and paste it into your browser followed by `:86` (e.g., `http://192.168.1.50:86`).
-3.  **Live View:** You will see the synchronized MJPEG video and WAV audio stream.
-4.  **Record Clips:** Click the **"RECORD CLIP"** button. This will record the live stream directly to your browser's download folder as a `.webm` file.
+3.  **Live View:** You will see the video stream, for legal reasons you must click on the website before any audio is allowed to play, so once on the website click on it immediately.
+4.  **Record Clips:** Click the **"RECORD CLIP"** button. This will record the live stream directly to your browser's download folder as a `.webm` file, in addition if you move infront of the motion sensor it will
+5.  begin to record. Unfortunately the SD pin is occupied by the SD pin on the 1NMP441, this means that the only way to record the security clips is through the webpage.
 
 ---
 
