@@ -89,3 +89,4 @@ Digital audio requires precise timing. Ensure connections are secure to minimize
 * **Audio Noise:** Ensure the INMP441 `GND` and `L/R` pins are both connected to a clean Ground. Keep I2S wires short.
 
 ---
+<img width="915" height="649" alt="image" src="https://github.com/user-attachments/assets/66b83786-45d5-44a0-9c8e-e7a3f7823689" />
