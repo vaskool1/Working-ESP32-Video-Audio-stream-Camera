@@ -1,4 +1,4 @@
-# 🔔 ESP32-CAM AI Smart Doorbell
+#  ESP32-CAM AI Live Stream Plus motion Detection
 ### *Live A/V Streaming, HC-SR501 Motion Intelligence, and Browser Recording*
 
 This project transforms an ESP32-CAM into a professional-grade smart doorbell. It features high-fidelity digital audio via I2S, real-time MJPEG video, and hardware-level motion detection. The unified web dashboard allows for live monitoring and one-click browser-side recording—no SD card required.
